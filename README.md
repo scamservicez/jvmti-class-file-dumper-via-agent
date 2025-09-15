@@ -126,14 +126,12 @@ dumpbin /dependents classdumper.dll
 Проверьте логи агента на наличие ошибок
 На Windows используйте полные пути или экранируйте обратные слеши
 
-Проблемы с компилятором
 MinGW на Windows
-cmd# Установка через Chocolatey
+Установка через Chocolatey
 choco install mingw
 
-# Или загрузите с https://www.mingw-w64.org/
 Visual Studio
-cmd# Используйте Developer Command Prompt
+Используйте Developer Command Prompt
 # Замените g++ на cl.exe в команде компиляции
 Отладочная информация
 bash# Включить подробный вывод JVMTI
