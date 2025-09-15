@@ -48,23 +48,6 @@ make run-test-verbose
 Параметр агента указывает директорию для сохранения .class файлов
 Если не указан, используется ./dumped_classes/
 
-Структура вывода
-Агент сохраняет классы в следующей структуре:
-output_directory/
-├── java/
-│   ├── lang/
-│   │   ├── String.class
-│   │   ├── Object.class
-│   │   └── ...
-│   └── util/
-│       ├── ArrayList.class
-│       ├── HashMap.class
-│       └── ...
-├── your/package/
-│   ├── YourMainClass.class
-│   ├── YourMainClass$InnerClass.class
-│   └── ...
-└── ...
 Примеры использования
 1. Дамп классов Spring Boot приложения
 bashjava -javaagent:./classdumper.so=./spring_classes -jar myapp.jar
